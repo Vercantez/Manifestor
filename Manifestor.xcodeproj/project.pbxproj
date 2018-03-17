@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7A83F91A205D95C3004D82F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83F919205D95C3004D82F3 /* main.swift */; };
+		7A83F922205D960B004D82F3 /* TargetAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83F920205D960A004D82F3 /* TargetAdder.swift */; };
+		7A83F923205D960B004D82F3 /* ComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83F921205D960A004D82F3 /* ComponentFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		7A83F916205D95C3004D82F3 /* Manifestor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Manifestor; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A83F919205D95C3004D82F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7A83F920205D960A004D82F3 /* TargetAdder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetAdder.swift; sourceTree = "<group>"; };
+		7A83F921205D960A004D82F3 /* ComponentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				7A83F919205D95C3004D82F3 /* main.swift */,
+				7A83F921205D960A004D82F3 /* ComponentFactory.swift */,
+				7A83F920205D960A004D82F3 /* TargetAdder.swift */,
 			);
 			path = Manifestor;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A83F91A205D95C3004D82F3 /* main.swift in Sources */,
+				7A83F923205D960B004D82F3 /* ComponentFactory.swift in Sources */,
+				7A83F922205D960B004D82F3 /* TargetAdder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +185,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -231,6 +241,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
