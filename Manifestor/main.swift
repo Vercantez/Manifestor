@@ -30,6 +30,6 @@ guard let name = name, let dependencies = dependencies else {
 }
 let target = ComponentFactory.makeTarget(name: name, dependencies: dependencies)
 
-let depAdd = TargetAdder(newTarget: target)
+let targetAdder = TargetAdder(newTarget: target)
 
-print(depAdd.visit(parsed))
+print(targetAdder.visit(parsed))
