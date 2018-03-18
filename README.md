@@ -3,7 +3,9 @@ This is a prototype for my Google Summer of Code proposal to the Swift Organizat
 This is meant as a proof-of-concept to show how one might edit the Package.swift file mechanically using SwiftSyntax/libSyntax. Currently, it only adds targets to an existing Package.swift file and then prints the new file without writing the changes back to disk.
 
 Usage:
+
 I built the project using the instructions at the bottom of this page: https://github.com/apple/swift/blob/master/lib/Syntax/README.md
+
 After building the project in Xcode, run the program from the command line with the Package.swift manifest file as the only argument.
 
 `
